@@ -1,7 +1,7 @@
 import { Clock, BookOpen, Activity } from "lucide-react";
 
 const DayCard = ({ day, date, items, note }) => (
-  <div className="rounded-xl border bg-white p-5 shadow-sm">
+  <div className="rounded-xl border bg-white p-5 shadow-sm transition hover:shadow-md">
     <div className="flex items-center justify-between">
       <div>
         <h3 className="text-lg font-semibold text-gray-900">{day}</h3>
@@ -20,7 +20,7 @@ const DayCard = ({ day, date, items, note }) => (
 
 export default function ScheduleSection() {
   return (
-    <section className="bg-gray-50 py-14">
+    <section id="jadwal" className="bg-gray-50 py-14">
       <div className="mx-auto max-w-6xl px-6">
         <div className="mb-8 flex items-center gap-3">
           <div className="rounded-lg bg-indigo-100 p-2">

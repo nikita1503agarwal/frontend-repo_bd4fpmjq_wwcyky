@@ -1,8 +1,8 @@
-import { Info, Quran, Medal, Mountain } from "lucide-react";
+import { Info, Quran, Medal } from "lucide-react";
 
 export default function InfoSection() {
   return (
-    <section className="bg-gray-50 py-14">
+    <section id="informasi" className="bg-gray-50 py-14">
       <div className="mx-auto max-w-6xl px-6">
         <div className="mb-8 flex items-center gap-3">
           <div className="rounded-lg bg-emerald-100 p-2"><Info className="h-5 w-5 text-emerald-700" /></div>

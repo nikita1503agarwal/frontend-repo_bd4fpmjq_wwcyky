@@ -1,7 +1,7 @@
 import { CheckCircle2, Trophy, Leaf, Users } from "lucide-react";
 
 const HighlightItem = ({ icon: Icon, title, desc }) => (
-  <div className="flex gap-4 rounded-xl border bg-white p-5 shadow-sm">
+  <div className="flex gap-4 rounded-xl border bg-white p-5 shadow-sm transition hover:shadow-md">
     <div className="mt-1 rounded-lg bg-indigo-50 p-2 text-indigo-700">
       <Icon className="h-5 w-5" />
     </div>
